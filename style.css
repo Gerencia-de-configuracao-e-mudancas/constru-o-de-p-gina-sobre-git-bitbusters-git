@@ -6,11 +6,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+   
 }
 
 header{
     background-color: black;
     width: 100%;
+    display: flex;
 }
 
 .container{
@@ -35,15 +37,16 @@ header{
     transition: background .6s;
 }
 #menu ul li a:hover{
-     background-color: #324e81;
+     background-color: #3a3e46;
 }
 .logo{
-    width: 20%;
+    width: 75px;
+    display: block;
+    padding: auto;
+    margin: auto;
+    
 }
 
-.logo img{
-    width: 100px;
-}
 
 h1{
     color: #fff;
